@@ -1,0 +1,33 @@
+{
+  "name": "error-if-not-float",
+  "version": "1.0.0",
+  "description": "Function triggers error if argument is not float of type 'number'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/error-if-not-float.git"
+  },
+  "keywords": [
+    "error",
+    "message",
+    "not",
+    "float",
+    "type-checking",
+    "type",
+    "check",
+    "data-type"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/error-if-not-float/issues"
+  },
+  "homepage": "https://github.com/writetome51/error-if-not-float#readme",
+  "dependencies": {
+    "error-if-not-finite-number": "~1.0.0",
+    "@writetome51/is-integer-is-float": "~1.0.0"
+  }
+}
