@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", {value: true});
-var errorIfNotFloat = require("./index").errorIfNotFloat;
+import {errorIfNotFloat} from './index.js';
 
 
 errorIfNotFloat(0.01);
@@ -12,6 +10,7 @@ try {
 	errorIfNotFloat('1');
 } catch (e) {
 	errorTriggered = true;
+	console.log(e.message);
 }
 if (errorTriggered) console.log('test 2 passed');
 else console.log('test 2 FAILED');
